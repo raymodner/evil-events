@@ -21,21 +21,27 @@ Route::model('galleryitem', 'GalleryItem');
  */
 Route::group(array("before" => "guest"), function()
 {
-    Route::any("/", array(
-        "as"   => "user/login",
-        "uses" => "UserController@loginAction"
-    ));
-    Route::any("/request", array(
-        "as"   => "user/request",
-        "uses" => "UserController@requestAction"
-    ));
-    Route::any("/reset", array(
-        "as"   => "user/reset",
-        "uses" => "UserController@resetAction"
-    ));
+//    Route::any("/", array(
+//        "as"   => "user/login",
+//        "uses" => "UserController@loginAction"
+//    ));
+//    Route::any("/request", array(
+//        "as"   => "user/request",
+//        "uses" => "UserController@requestAction"
+//    ));
+//    Route::any("/reset", array(
+//        "as"   => "user/reset",
+//        "uses" => "UserController@resetAction"
+//    ));
+
+	Route::any("/", array(
+		"as"   => "home",
+		"uses" => "homeController@indexAction"
+	));
 });
 Route::group(array("before" => "auth"), function()
 {
+
     //user
     Route::any("/profile", array(
         "as"   => "user/profile",
@@ -91,6 +97,42 @@ Route::any('blog/edit/{id}', array(
     "uses"  => "BlogController@editAction"
 ));
 
+
+/**
+ * Contact
+ */
+
+Route::any("contact", array(
+	"as"     => "contact",
+	"uses"   => "ContactController@indexAction"
+));
+
+
+Route::any("contact/add", array(
+	"as"     => "contact/add",
+	"uses"   => "ContactController@addAction"
+));
+
+
+/**
+ * Event
+ */
+
+Route::any("evenementen", array(
+	"as"     => "evenementen",
+	"uses"   => "EventController@indexAction"
+));
+/**
+ * Report
+ */
+
+Route::any("portfolio", array(
+	"as"     => "portfolio",
+	"uses"   => "ReportController@indexAction"
+));
+
+
+
 /**
  * Gallery
  */
@@ -111,14 +153,6 @@ Route::any('album/item/new/{gallerybook}', array(
     'uses' => 'MediaController@newItemAction'));
 
 
-
-/**
- * Angular
- */
-Route::get('angular', function() {
-   return View::make('angular'); 
-    
-});
 
 route::post('auth/login', 'AuthController@loginAction');
 route::get('auth/logout', 'AuthController@logoutAction');

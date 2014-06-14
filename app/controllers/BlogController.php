@@ -1,14 +1,9 @@
 <?php
 
-
-
-class BlogController
-    extends BaseController
-{
+class BlogController extends BaseController {
     
     
-    public function indexAction()
-    {
+    public function indexAction() {
         $data = array();
         $data['posts']= $blogPosts = Post::all();
         

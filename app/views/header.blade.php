@@ -1,29 +1,20 @@
 @section("header")
     <div class="header">
-        <div class="container">
-            <h1>Laravel startup</h1>
-            @if (Auth::check())
-                <a href="{{ URL::route("user/logout") }}">
-                    Logout
-                </a>
-             @else
-                <a href="{{ URL::route("user/login") }}">
-                    Login
-                </a>
-            @endif
-            <nav >
-                @if (Auth::check())
-                    <a href="{{ URL::route("user/profile") }}">
-                        Profile
-                    </a>
-                    <a href="{{ URL::route("media/list", array('user' => Auth::user()->id)) }}">
-                        Mijn media
-                    </a>
-                @endif
-                <a href="{{ URL::route("blog") }}">
-                    Blogs
-                </a>
-            </nav>
+
+		<div class="container">
+			<img class="logo" src="img/logo.png" width="100px"/>
+
+			<div class='navbar navbar-inverse'>
+
+				<div class='navbar-inner nav-collapse'>
+					<ul class="nav">
+						<li @if($section == 'home') class="active" @endif><a href="{{ URL::to('home') }}">Home</a></li>
+						<li @if($section == 'event') class="active" @endif><a href="{{ URL::to('evenementen') }}">Evenementen</a></li>
+						<li @if($section == 'report') class="active" @endif><a href="{{ URL::to('portfolio') }}">Portfolio</a></li>
+						<li @if($section == 'contact') class="active" @endif><a href="{{ URL::to('contact') }}">Contact</a></li>
+					</ul>
+				</div>
+			</div>
         </div>
     </div>
 @show

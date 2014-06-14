@@ -54,10 +54,10 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => '192.168.0.99',
-			'database'  => 'laravel_qs',
-			'username'  => 'oberon',
-			'password'  => '$pl4sz4K',
+			'host'      => '192.168.0.13',
+			'database'  => 'evil_events',
+			'username'  => 'evil-events',
+			'password'  => 'tR4QjS6e9FuBRYzn',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
