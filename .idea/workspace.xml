@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21b0a313-5b85-42db-b467-f19213189158" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/ContactController.php" afterPath="$PROJECT_DIR$/app/controllers/ContactController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contact/index.blade.php" afterPath="$PROJECT_DIR$/app/views/contact/index.blade.php" />
     </list>
     <ignored path="evil-events.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.blade.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/contact/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="27" selection-start="130" selection-end="130" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="450">
+            <state line="15" column="39" selection-start="570" selection-end="570" vertical-scroll-proportion="0.31556803" vertical-offset="0" max-vertical-offset="713">
               <folding />
             </state>
           </provider>
@@ -106,10 +106,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContactController.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ContactController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/ContactController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="58" selection-start="947" selection-end="947" vertical-scroll-proportion="0.5708275" vertical-offset="193" max-vertical-offset="945">
+            <state line="45" column="58" selection-start="947" selection-end="947" vertical-scroll-proportion="-16.958334" vertical-offset="193" max-vertical-offset="945">
               <folding />
             </state>
           </provider>
@@ -153,11 +153,11 @@
         <option value="$PROJECT_DIR$/app/views/report/index.blade.php" />
         <option value="$PROJECT_DIR$/app/views/event/index.blade.php" />
         <option value="$PROJECT_DIR$/app/views/blocks/contact.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/contact/index.blade.php" />
         <option value="$PROJECT_DIR$/app/views/header.blade.php" />
         <option value="$PROJECT_DIR$/public/css/layout.css" />
         <option value="$PROJECT_DIR$/app/views/email/contact.blade.php" />
         <option value="$PROJECT_DIR$/app/controllers/ContactController.php" />
+        <option value="$PROJECT_DIR$/app/views/contact/index.blade.php" />
       </list>
     </option>
   </component>
@@ -834,13 +834,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contact/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="27" selection-start="130" selection-end="130" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="450">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layout.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="65" selection-start="615" selection-end="615" vertical-scroll-proportion="13.958333" vertical-offset="470" max-vertical-offset="1170">
@@ -899,7 +892,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/ContactController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="58" selection-start="947" selection-end="947" vertical-scroll-proportion="0.5708275" vertical-offset="193" max-vertical-offset="945">
+        <state line="45" column="58" selection-start="947" selection-end="947" vertical-scroll-proportion="-16.958334" vertical-offset="193" max-vertical-offset="945">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contact/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="39" selection-start="570" selection-end="570" vertical-scroll-proportion="0.31556803" vertical-offset="0" max-vertical-offset="713">
           <folding />
         </state>
       </provider>

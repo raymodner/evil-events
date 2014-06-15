@@ -13,7 +13,7 @@
 				</ul>
 			</div>
 			<div class="contact-avatar">
-				<img src="img/eva.jpg"/>
+				<img class="img-rounded" src="img/eva.jpg"/>
 			</div>
 		</div>
 	</section>
