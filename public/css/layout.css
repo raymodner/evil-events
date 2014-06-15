@@ -159,13 +159,32 @@ img.logo{
 
 @media screen and (max-width: 960px) {
 	.container {
-		width: 560px;
+		width: 720px;
+	}
+	.navbar-inner{
+		width: 480px;
+	}
+	.body{
+		background-size: 560px;
+		background: none;
 	}
 }
+@media screen and (max-width: 640px) {
+	.left-area2{
+		width: 480px;
+	}
+	.left-inner2{
+		width: 400px;
+	}
+	.navbar-inner{
+		width: 305px;
+	}
 
-@media screen and (max-width: 720px) {
+}
+@media screen and (max-width: 480px) {
 	.container{
 		width: 320px;
+		margin-left: 10px;
 	}
 	.left-area2{
 		width: 320px;

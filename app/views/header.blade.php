@@ -1,7 +1,7 @@
 @section("header")
 <div class="header">
 
-	<div class="container">
+	<div class="container header-container">
 		<img class="logo" src="img/logo.png" width="100px"/>
 
 		<div class='navbar navbar-inverse'>
