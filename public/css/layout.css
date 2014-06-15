@@ -170,6 +170,9 @@ img.logo{
 	}
 }
 @media screen and (max-width: 640px) {
+	.container {
+		width: 480px;
+	}
 	.left-area2{
 		width: 480px;
 	}

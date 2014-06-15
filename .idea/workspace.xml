@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21b0a313-5b85-42db-b467-f19213189158" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/header.blade.php" afterPath="$PROJECT_DIR$/app/views/header.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/layout.css" afterPath="$PROJECT_DIR$/public/css/layout.css" />
     </list>
     <ignored path="evil-events.iws" />
@@ -65,7 +64,7 @@
       <file leaf-file-name="layout.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/css/layout.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="179" column="18" selection-start="3565" selection-end="3565" vertical-scroll-proportion="0.556962" vertical-offset="2289" max-vertical-offset="3135">
+            <state line="173" column="18" selection-start="3496" selection-end="3496" vertical-scroll-proportion="0.36708862" vertical-offset="2334" max-vertical-offset="3180">
               <folding />
             </state>
           </provider>
@@ -750,7 +749,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/layout.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="179" column="18" selection-start="3565" selection-end="3565" vertical-scroll-proportion="0.556962" vertical-offset="2289" max-vertical-offset="3135">
+        <state line="173" column="18" selection-start="3496" selection-end="3496" vertical-scroll-proportion="0.36708862" vertical-offset="2334" max-vertical-offset="3180">
           <folding />
         </state>
       </provider>
