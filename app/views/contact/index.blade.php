@@ -2,7 +2,7 @@
 @section("content")
 <div class="left-area3">
 	<section class="left-inner3 box clearfix ">
-		<h3>Evil Events</h3>
+		<h1>Evil Events</h1>
 		<div class="contact">
 			<div class="contact-info">
 				<ul class="no-bullet">
