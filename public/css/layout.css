@@ -234,6 +234,12 @@ img.logo{
 	.navbar-inner{
 		width: 480px;
 	}
+	.left-area3{
+		width: 640px;
+	}
+	.left-inner3{
+		width: 570px;
+	}
 	body{
 		background-size: 640px;
 	}
@@ -242,10 +248,10 @@ img.logo{
 	.container {
 		width: 480px;
 	}
-	.left-area2{
+	.left-area2, .left-area3{
 		width: 480px;
 	}
-	.left-inner2{
+	.left-inner2, .left-inner3{
 		width: 400px;
 	}
 	.navbar-inner{
@@ -261,10 +267,10 @@ img.logo{
 		width: 320px;
 		margin-left: 10px;
 	}
-	.left-area2{
+	.left-area2, .left-area3{
 		width: 320px;
 	}
-	.left-inner2{
+	.left-inner2, .left-inner3{
 		width: 270px;
 	}
 	.navbar-inner{
