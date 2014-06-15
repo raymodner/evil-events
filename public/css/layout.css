@@ -177,7 +177,9 @@ img.logo{
 		width: 175px;
 	}
 }
-
+.small-nav{
+	width: 185px;
+}
 .hidden{
 	display: none;
 }
