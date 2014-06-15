@@ -16,10 +16,19 @@ a {
     color : rgb(101, 195,227);
 }
 .container {
-    width    : 960px;
+	width: 960px;
     position : relative;
     margin   : 0 auto;
 }
+
+.header-container{
+	width    : 960px;
+	margin   : 0 auto;
+}
+
+
+
+
 .header, .footer {
     line-height : 50px;
     height      : 50px;
@@ -28,6 +37,7 @@ a {
 }
 .header{
     min-height: 125px;
+	position: relative;
 }
 .header h1, .header a {
     display : inline-block;
@@ -43,7 +53,7 @@ a {
 .main {
 	min-height: 400px;
 	margin: 0 auto;
-	width: 960px;
+	/*width: 960px;*/
 }
 .clearfix:before, .clearfix:after{
 	content: " ";
@@ -114,7 +124,7 @@ label{
 input, textarea{
 	width: 70%
 }
-.logo{
+img.logo{
 	float:left;
 }
 
@@ -129,6 +139,7 @@ input, textarea{
 	float:right;
 	margin-right: 10px;
 }
+
 .btn-custom {
 	background-color: hsl(195, 80%, 53%) !important;
 	background-repeat: repeat-x;
@@ -144,4 +155,29 @@ input, textarea{
 	color: #fff !important;
 	/*text-shadow: 0 1px 1px rgba(255, 255, 255, 0.29);*/
 	text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+}
+
+@media screen and (max-width: 960px) {
+	.container {
+		width: 560px;
+	}
+}
+
+@media screen and (max-width: 720px) {
+	.container{
+		width: 320px;
+	}
+	.left-area2{
+		width: 320px;
+	}
+	.left-inner2{
+		width: 270px;
+	}
+	.navbar-inner{
+		width: 175px;
+	}
+}
+
+.hidden{
+	display: none;
 }

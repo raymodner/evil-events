@@ -2,6 +2,7 @@
 <html lang=”en”>
     <head>
         <meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="/packages/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
 <!--		<link rel="stylesheet" href="/packages/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />-->
 <!--		<link rel="stylesheet" href="/packages/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />-->
@@ -35,7 +36,9 @@
         @yield("css")
         @include("header")
         <div class="main clearfix">
-			@yield("content")
+			<div class="container">
+				@yield("content")
+			</div>
         </div>
         @include("footer")
     </body>
