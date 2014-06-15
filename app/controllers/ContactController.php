@@ -36,15 +36,21 @@ class ContactController extends BaseController
 
 			));
 			$contact->fill($post);
+			$this->addData('contact', $contact);
 
 			if ($validator->passes()) {
 				$contact->save();
+
+				Mail::send('email.contact', $this->data, function($message)
+				{
+					$message->from('info@evil-events.nl');
+					$message->to('raymond@oberon.nl')->subject('Contact aanvraag');
+				});
 
 				return Response::json(array('success' => 'true', 'message' => 'Bericht verstuurd'));
 			}
 
 			$this->addData('errors', $validator->messages());
-			$this->addData('contact', $contact);
 			$view =  View::make('contact/add', $this->data)->render();
 			$this->addData('view', $view);
 			return Response::json($this->data);
