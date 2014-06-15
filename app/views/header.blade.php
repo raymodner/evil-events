@@ -25,7 +25,7 @@
 </div>
 <script type="text/javascript">
 	function resizeNav(){
-		if (window.innerWidth < 720) {
+		if (window.innerWidth < 640) {
 			$(".large-nav").hide();
 			$(".small-nav").show();
 		}else{

@@ -3,11 +3,19 @@
 <div class="left-area3">
 	<section class="left-inner3 box clearfix ">
 		<h3>Evil Events</h3>
-		<ul>
-			<li>Telefoon: +31 6 553 964 33</li>
-			<li>Email: info@evil-events.nl</li>
-			<li><a class="fancybox fancybox.ajax" href="{{ URL::to('contact/add') }}">Contactformulier</a></li>
-		</ul>
+		<div class="contact">
+			<div class="contact-info">
+				<ul class="no-bullet">
+					<li class="no-bullet">Telefoon: </li>
+		<!--			<li>Telefoon: +31 6 553 964 33</li>-->
+					<li>Email: <a href="mailto:info@evil-events.nl">info@evil-events.nl</a></li>
+					<li><a class="fancybox fancybox.ajax" href="{{ URL::to('contact/add') }}">Contactformulier</a></li>
+				</ul>
+			</div>
+			<div class="contact-avatar">
+				<img src="img/eva.jpg"/>
+			</div>
+		</div>
 	</section>
 
 </div>
